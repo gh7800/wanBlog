@@ -1,7 +1,22 @@
 <template>
     <div class="">
         <div class="">vue demo</div>
-        <router-view></router-view>
+        <!--        <router-view></router-view>-->
+        <table>
+            <tr>
+                <td>用户名</td>
+                <td><input type="text" name="username"></td>
+            </tr>
+            <tr>
+                <td>密码</td>
+                <td><input type="password" name="password"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="提交"></td>
+            </tr>
+
+        </table>
     </div>
 </template>
 
@@ -10,39 +25,3 @@ export default {
     name: 'App'
 }
 </script>
-
-<!--Header
-
-Footer
-
-export default{}.el-header,.el-footer{
-
-background-color:#B3C0D1;
-
-color:#333;
-
-text-align:center;
-
-line-height:60px;}.el-aside{
-
-background-color:#D3DCE6;
-
-color:#333;
-
-text-align:center;
-
-line-height:200px;}.el-main{
-
-background-color:#E9EEF3;
-
-color:#333;
-
-text-align:center;
-
-line-height:160px;}body>.el-container{
-
-margin-bottom:40px;}.el-container:nth-child(5).el-aside,.el-container:nth-child(6).el-aside{
-
-line-height:260px;}.el-container:nth-child(7).el-aside{
-
-line-height:320px;}-->
