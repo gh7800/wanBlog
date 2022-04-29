@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../css/app.css" media="all">
 </head>
 <body>
-<div id="app">
+<div id="home">
 
 </div>
 <script src="../js/app.js" charset="utf-8"></script>

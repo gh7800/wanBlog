@@ -4,7 +4,7 @@ import App from "./components/App";
 import Info from "./components/auth/Info";
 import Login from "./components/auth/Login";
 
-export default [
+const routes = [
     {
         path: '/',
         name:'App',
@@ -23,7 +23,12 @@ export default [
     {
         path: '/login',
         name:'Login',
-        component: Login
+        component: Login,
     },
 
 ]
+
+const router = new VueRouter({
+    routes
+})
+export default router;
